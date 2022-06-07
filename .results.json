@@ -2,25 +2,25 @@
   "stats": {
     "suites": 5,
     "tests": 13,
-    "passes": 12,
+    "passes": 13,
     "pending": 0,
-    "failures": 1,
-    "start": "2022-06-07T16:58:18.041Z",
-    "end": "2022-06-07T16:58:18.480Z",
-    "duration": 439
+    "failures": 0,
+    "start": "2022-06-07T17:34:33.466Z",
+    "end": "2022-06-07T17:34:33.900Z",
+    "duration": 434
   },
   "tests": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
@@ -48,7 +48,7 @@
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,14 +62,14 @@
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns distance when destination is below distance",
       "fullTitle": "index.js distanceTravelledInFeet() returns distance when destination is below distance",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -83,15 +83,9 @@
     {
       "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
-      "duration": 2,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 3200 to equal 2.56",
-        "showDiff": true,
-        "actual": "3200",
-        "expected": "2.56",
-        "stack": "AssertionError: expected 3200 to equal 2.56\n    at Context.<anonymous> (test/indexTest.js:51:46)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
+      "err": {}
     },
     {
       "title": "charges 25 dollars for a distance over 2000 feet",
@@ -103,39 +97,25 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
-      "duration": 3,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
-      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 3200 to equal 2.56",
-        "showDiff": true,
-        "actual": "3200",
-        "expected": "2.56",
-        "stack": "AssertionError: expected 3200 to equal 2.56\n    at Context.<anonymous> (test/indexTest.js:51:46)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
@@ -163,7 +143,7 @@
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -177,20 +157,27 @@
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns distance when destination is below distance",
       "fullTitle": "index.js distanceTravelledInFeet() returns distance when destination is below distance",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "gives customers a free sample",
       "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -205,7 +192,7 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
-      "duration": 3,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
